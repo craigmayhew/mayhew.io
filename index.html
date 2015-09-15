@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <style>
+      #logo{
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size:96px;
+        margin: auto auto;
+        padding:0px;
+        text-decoration:none;
+        width:300px;
+      }   
+      #logo div{
+        display: inline-block;
+        height:96px;
+        line-height:96px;
+        margin:0;
+        padding:0;
+        width:145px;
+          transform:skewX(150deg);
+      }   
+      #logo div.rotate{
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        padding-bottom:20px;
+        transform: rotate(180deg) skewX(150deg);
+        writing-mode: lr-tb;
+      }   
+    </style>
+  </head>
+  <body>
+    <div id="logo">
+      <div>may</div><div class="rotate">may</div>
+    </div>
+  </body>
+</html>
